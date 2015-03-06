@@ -16,14 +16,19 @@
   * sharpcompress (zip解凍)
   * libgit2sharp (Gitクライアントライブラリ)
   * Microsoft HTTP Library
+  * Microsoft Async Library
 
 ## バイナリ
-* https://raw.githubusercontent.com/kekyo/CenterCLR.WordPressJaRepositoryGenerator/master/CenterCLR.WordPressJaRepositoryGenerator-1.0.0.0.zip
+* https://raw.githubusercontent.com/kekyo/CenterCLR.WordPressJaRepositoryGenerator/master/CenterCLR.WordPressJaRepositoryGenerator-1.0.1.zip
 
 ## 実行方法
-* 実行環境として、.NET Framework 4.5.1が必要です。
+* 実行環境として、.NET Framework 4.0 Client profile 以上が必要です。
 * コマンドラインで「CenterCLR.WordPressJaRepositoryGenerator.exe」を起動するだけです。WordPress日本語サイトから自動的にスクレイピングを実行し、バイナリと同じフォルダ内の"WordPress-ja"フォルダ配下にコミットします。
 * 既に"WordPress-ja"フォルダが存在する場合は、そのGitリポジトリを使用します。存在しない場合は新規に生成します。
 * 取り込み済みのバージョンは取り込みません。そのため、新しいバージョンがリリースされたら、単にこのツールを実行すればOKです。
 
 ![実行サンプルイメージ](https://raw.githubusercontent.com/kekyo/CenterCLR.WordPressJaRepositoryGenerator/master/ExecutionSample.png "実行サンプルイメージ")
+
+## 履歴
+* 1.0.1 Down graded CLR version to "CLR 4.0 Client profile."
+* 1.0.0 First release.

@@ -173,7 +173,8 @@ namespace CenterCLR.WordPressJaRepositoryGenerator
 
 		static void Main(string[] args)
 		{
-			Console.WriteLine("CenterCLR.WordPressJaRepositoryGenerator - Auto create and maint WordPress-ja Git repository.");
+			Console.WriteLine("CenterCLR.WordPressJaRepositoryGenerator {0} - Auto create and maint WordPress-ja Git repository.",
+				typeof(Program).Assembly.GetName().Version);
 			Console.WriteLine("Copyright (c) Kouji Matsui, All rights reserved.");
 			Console.WriteLine();
 
